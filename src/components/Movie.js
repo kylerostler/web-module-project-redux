@@ -18,6 +18,7 @@ const Movie = (props) => {
 
     const handleFavorite = () => {
         addFavorite(movie);
+        push('/movies');
     }
 
     return(<div className="modal-page col">
